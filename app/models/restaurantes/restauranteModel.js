@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 const querystring = require('querystring');
 const url = require('url');
-const Schema = require('./schema-profissional');
-const Profissinal = mongoose.model('profissional', Schema);
+const Schema = require('./schema-restaurante');
+const Profissinal = mongoose.model('restaurante', Schema);
 
 'use strict';
 
@@ -27,9 +27,11 @@ const find = (req, res) => {
 };
 
 const findOne = (req, res) => {
-	const _id = req.params._id;
+	const id = req.params.id;
 
-	Profissinal.findOne(_id)
+	console.log(id);
+
+	Profissinal.findOne({ _id: id })
 		.then((contatos) => {
 			res.status(200).json(contatos);
 		}, (erro) => {
@@ -38,10 +40,13 @@ const findOne = (req, res) => {
 };
 
 const update = (req, res) => {
-	const _idProfissional = req.body._id;
+	const _idProfissional = req.params.id;
 	const profissionalModificado = req.body;
 
-	Profissinal.findOneAndUpdate(_idProfissional, profissionalModificado)
+	console.log(_idProfissional);
+	console.log(profissionalModificado);
+
+	Profissinal.findOneAndUpdate({ _id: _idProfissional}, profissionalModificado)
 		.then((profissional) => {
 			res.status(200).json(profissional);
 		}, (erro) => {
