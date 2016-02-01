@@ -11,8 +11,16 @@
     "express": "^4.13.4",
     "express-load": "^1.1.15",
     "method-override": "^2.3.5",
+    "moment": "^2.11.1",
     "mongoose": "^4.3.7",
     "morgan": "~1.6.1",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "karma": "^0.13.19",
+    "karma-cli": "^0.1.2",
+    "karma-jasmine": "^0.3.6"
   }
 }

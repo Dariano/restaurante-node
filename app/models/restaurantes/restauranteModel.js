@@ -29,8 +29,6 @@ const find = (req, res) => {
 const findOne = (req, res) => {
 	const id = req.params.id;
 
-	console.log(id);
-
 	Profissinal.findOne({ _id: id })
 		.then((contatos) => {
 			res.status(200).json(contatos);
@@ -42,9 +40,6 @@ const findOne = (req, res) => {
 const update = (req, res) => {
 	const _idProfissional = req.params.id;
 	const profissionalModificado = req.body;
-
-	console.log(_idProfissional);
-	console.log(profissionalModificado);
 
 	Profissinal.findOneAndUpdate({ _id: _idProfissional}, profissionalModificado)
 		.then((profissional) => {
