@@ -4,7 +4,7 @@ const Urna = mongoose.model('urna', Schema);
 
 'use strict';
 
-const votar = frequire('./../actions/action-create')(Urna);
+const votar = require('./../actions/action-create')(Urna);
 
 const actions = {
 	votar
