@@ -43,15 +43,3 @@ Vamos fazer um pequeno sistema que auxilie essa tomada de decisão!
 
 * Mostrar de alguma forma o resultado da votação.
 
-
-##Iniciando
-
-Começando o desenvolvimento montando a estrutura do projeto. 
-
-> Na pasta public ficará tudo relacionado ao front-End.
-
-> Na pasta app ficará tudo relacionado ao Back-End.
-
-> Na pasta tests estará os testes da aplicação.
-
-> Na pasta config está a configuração da nossa aplicação.
