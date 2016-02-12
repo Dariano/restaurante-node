@@ -9,11 +9,11 @@ Vamos fazer um pequeno sistema que auxilie essa tomada de decisão!
 
 ###Estória 1
 
-Eu como **profissional faminto**
+> Eu como **profissional faminto**
 
-Quero **votar no meu restaurante favorito**
+> Quero **votar no meu restaurante favorito**
 
-Para que **eu consiga democraticamente levar meus colegas a comer onde eu gusto.**
+> Para que **eu consiga democraticamente levar meus colegas a comer onde eu gusto.**
 
 ###Critério de Aceitação
 
@@ -21,11 +21,11 @@ Para que **eu consiga democraticamente levar meus colegas a comer onde eu gusto.
 
 ###Estória 2
 
-Eu como **facilitador do processo de votação**
+> Eu como **facilitador do processo de votação**
 
-Quero **que um restaurante não possa ser repetido durante a semana**
+> Quero **que um restaurante não possa ser repetido durante a semana**
 
-Para que **não precise ouvir reclamações infinitas!**
+> Para que **não precise ouvir reclamações infinitas!**
 
 ###Critério de Aceitação
 
@@ -33,11 +33,11 @@ Para que **não precise ouvir reclamações infinitas!**
 
 ###Estória 3
 
-Eu como **profissional faminto**
+> Eu como **profissional faminto**
 
-Quero **saber antes do meio dia qual foi o restaurante escolhido**
+> Quero **saber antes do meio dia qual foi o restaurante escolhido**
 
-Para que **eu possa me despir de preconceitos e preparar o psicológico.**
+> Para que **eu possa me despir de preconceitos e preparar o psicológico.**
 
 ###Critério de Aceitação
 
